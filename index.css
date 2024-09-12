@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(248, 247, 244);
+}
+#navBar {
+  padding: 20px 40px;
+  width: 100%;
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+}
+span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+}
+#icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 35%;
+  left: 24px;
+}
+input {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  border-radius: 30px;
+  border: solid white;
+  height: 50px;
+  width: 220px;
+  align-content: center;
+  padding: 0px 60px 0px 40px;
+  margin-right: 15px;
+}
+input:hover {
+  border: 3px solid rgb(248, 217, 225);
+}
+#a1 {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+#a2 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 25px;
+  padding: 17px 23px 17px 23px;
+}
+#a2:hover {
+  background-color: rgb(86, 85, 100);
+}
+.sectionOne {
+  margin: 80px auto 0px;
+  /* border: 2px solid red; */
+  width: 94%;
+  height: 68.3vh;
+  text-align: center;
+}
+#aDiv {
+  width: fit-content;
+  text-align: center;
+  background-color: rgb(255, 184, 201);
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 0px auto;
+}
+#a3 {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "Source Serif 4";
+  line-height: 16px;
+  font-weight: 600;
+}
+h1 {
+  font-size: 78px;
+  line-height: 76px;
+  font-weight: 500;
+  font-family: "Source Serif 4";
+  margin: 40px 220px 30px;
+}
+.sectionOne p {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 500px;
+  margin: 0px 250px 40px;
+}
+#a4 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  background-color: rgb(13, 12, 34);
+  border-radius: 25px;
+  padding: 18px 25px 18px 25px;
+}
+#a4:hover {
+  background-color: rgb(86, 85, 100);
+}
+.sectionTwo {
+  display: flex;
+  min-width: 100%;
+  height: 80vh;
+  column-gap: 2rem;
+  overflow: scroll;
+  padding: 60px 0px;
+}
+.sectionTwo img {
+  width: 273px;
+  height: 340px;
+  border-radius: 40px;
+}
+.sectionTwo video {
+  width: 273px;
+  height: 340px;
+  border-radius: 40px;
+}
+#sectionTwoPikin {
+  width: 250px;
+  position: relative;
+  bottom: 120px;
+  left: 15px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  column-gap: 0.4rem;
+  padding: 0px;
+}
+li {
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 8px 10px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sectionTwo p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 13px;
+  color: rgb(255, 255, 255);
+  /* margin: 0px; */
+}
+h2 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 400;
+  color: rgb(13, 12, 34);
+  text-align: center;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  gap: 2rem;
+  padding-left: 90px;
+}
+
+.gridContainer img {
+  width: 270px;
+  height: 210px;
+  border-radius: 7px;
+}
+#min-grid img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+#min-grid span {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgb(13, 12, 34);
+}
+#base a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  color: black;
+  padding: 18px 20px;
+}
+.sectionFour {
+  height: 100vh;
+  padding: 80px 20px 0px;
+
+  background-color: rgb(255, 218, 121);
+}
+.sectionFourPikin {
+  /* margin: 80px auto 0px; */
+  border: 2px solid red;
+
+  text-align: center;
+}
+h3 {
+  font-size: 64px;
+  line-height: 72px;
+  font-weight: 400;
+  font-family: serif;
+  margin: 0px 340px;
+}
+.sectionFour p {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  margin: 0px 365px;
+}
+
+@media screen and (max-width: 1115px) {
+  input {
+    display: none;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 2rem;
+    padding-left: 50px;
+  }
+  .gridContainer img {
+    width: 300px;
+    height: 210px;
+    border-radius: 7px;
+  }
+  #icon {
+    position: static;
+    width: 30px;
+    height: 20px;
+    /* margin-top: 50px; */
+  }
+}
